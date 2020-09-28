@@ -4,6 +4,19 @@
 
 (Useless) [HN](https://news.ycombinator.com) Terminal Client.
 
+![](./screenshot.png)
+
+## Keybindings
+
+| Key(s) | Action |
+| ------ | ------ |
+| Q | Quit |
+| Tab<br>RightArrow<br>L | Next tab |
+| LeftArrow<br>H | Previous tab |
+| Enter | Open article/linked page |
+| C | Open comments page |
+| UpArrow and DownArrow<br>K and J | Scroll list |
+
 ## Build from source
 
 ### Requirements
