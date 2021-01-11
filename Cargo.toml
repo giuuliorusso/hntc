@@ -17,4 +17,4 @@ reqwest = { version = "0.10.10", features = ["json"] }
 serde = { version = "1.0.118", features = ["derive"] }
 structopt = "0.3.21"
 tokio = { version = "0.2.24", features = ["full"] }
-tui = { version = "0.13.0", features = ["crossterm"], default-features = false }
+tui = { version = "0.14.0", features = ["crossterm"], default-features = false }
