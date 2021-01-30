@@ -16,5 +16,5 @@ open = "1.4.0"
 reqwest = { version = "0.10.10", features = ["json"] }
 serde = { version = "1.0.119", features = ["derive"] }
 structopt = "0.3.21"
-tokio = { version = "0.2.24", features = ["full"] }
+tokio = { version = "0.2.25", features = ["full"] }
 tui = { version = "0.14.0", features = ["crossterm"], default-features = false }
