@@ -11,7 +11,7 @@ edition = "2018"
 [dependencies]
 chrono = "0.4.19"
 crossterm = "0.20.0"
-futures = "0.3.15"
+futures = "0.3.16"
 open = "1.7.1"
 reqwest = { version = "0.10.10", features = ["json"] }
 serde = { version = "1.0.126", features = ["derive"] }
