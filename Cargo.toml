@@ -15,6 +15,6 @@ futures = "0.3.17"
 open = "2.0.1"
 reqwest = { version = "0.10.10", features = ["json"] }
 serde = { version = "1.0.127", features = ["derive"] }
-structopt = "0.3.22"
+structopt = "0.3.23"
 tokio = { version = "0.2.25", features = ["full"] }
 tui = { version = "0.16.0", features = ["crossterm"], default-features = false }
