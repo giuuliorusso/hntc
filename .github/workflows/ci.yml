@@ -1,6 +1,10 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 env:
   CARGO_TERM_COLOR: always
@@ -15,10 +19,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
-      - name: Install dependencies (Ubuntu)
-        run: sudo apt-get install pkg-config libssl-dev
-        if: matrix.os == 'ubuntu-latest'
 
       - name: Build
         run: cargo build --verbose
